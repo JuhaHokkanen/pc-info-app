@@ -16,7 +16,7 @@ $currentTime = Get-Date
 $uptime = New-TimeSpan -Start $bootTime -End $currentTime
 
 # Muunna BIOS ReleaseDate (WMI aika) → DateTime
-$biosReleaseDate = $biosInfo.ReleaseDate
+# $biosReleaseDate = $biosInfo.ReleaseDate
 
 $bootTimeFormatted = $bootTime.ToString("dd.MM.yyyy HH:mm")
 
@@ -78,9 +78,16 @@ catch {
 }
 
 # Määritä JSON-tiedoston tallennuspolku
-$jsonPath = "C:\Koodit\scriptit\pc-info-app\public\pcinfo.json"
+
 
 # Tallennetaan JSON-muotoisena tiedostoon (huom! -Depth 5)
-$pcInfo | ConvertTo-Json -Depth 5 | Set-Content -Path $jsonPath -Encoding UTF8
+$pcInfo | ConvertTo-Json -Depth 5 | Set-Content -Encoding UTF8 -Path "./public/data.json"
 
 Write-Host "pcinfo.json tallennettu: $jsonPath" -ForegroundColor Green
+
+# Build ja deploy
+Write-Host " Suoritetaan build ja julkaisu GitHub Pagesiin..."
+npm run deploy
+
+Write-Host " Sivusto päivitetty:"
+Write-Host " https://juhahokkanen.github.io/pc-info-app/"
