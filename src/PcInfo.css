@@ -1,0 +1,39 @@
+.pcinfo-container {
+    
+    padding: 2rem;
+    width: 100%;
+    max-width: 800px;
+  }
+  
+  .pcinfo-container h2 {
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    margin-bottom: 20px;
+  }
+  
+  .pcinfo-table {
+    border-collapse: collapse;
+    width: 100%;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+  .pcinfo-table th, .pcinfo-table td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    font-size: 15px;
+    text-align: left;
+  }
+  
+  .pcinfo-table th {
+    background-color: #f0f0f0;
+    font-weight: bold;
+    width: 40%;
+  }
+  
+  .pcinfo-table tr:nth-child(even) {
+    background-color: #fafafa;
+  }
+  
