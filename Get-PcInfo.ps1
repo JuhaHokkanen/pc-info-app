@@ -43,8 +43,8 @@ $pcInfo = @{
         Threads = $cpuInfo.ThreadCount
     }
     MotherBoard =@{
-       Manufacturer = $sysInfo.Manufacturer
-       Model = $sysInfo.Model
+        Manufacturer = $sysInfo.Manufacturer
+        Model        = $sysInfo.Model
     }
 
     Memory = @{
