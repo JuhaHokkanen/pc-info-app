@@ -11,9 +11,9 @@
     "LastBoot": "28.03.2025 11.39",
     "OSVersion": "10.0.26100",
     "OSBuild": "26100",
-    "Timestamp": "2025-04-01 20.27.07",
+    "Timestamp": "2025-04-01 20.33.49",
     "ComputerName": "DESKTOP-IQ1GGQ8",
-    "Uptime": "4d 8h 47min"
+    "Uptime": "4d 8h 53min"
   },
   "Processor": {
     "Cores": 12,
@@ -28,12 +28,12 @@
     "BIOSVersion": "ALASKA - 1072009 / FGg / American Megatrends - 50011"
   },
   "MotherBoard": {
-    "Valmistaja": "Gigabyte Technology Co., Ltd.",
-    "Malli": "B550 AORUS ELITE V2"
+    "Manufacturer": "Gigabyte Technology Co., Ltd.",
+    "Model": "B550 AORUS ELITE V2"
   },
   "Disk": {
     "Drive": "C:",
-    "FreeSpaceGB": 661.24,
+    "FreeSpaceGB": 661.23,
     "Type": "NVMe",
     "UsedSpaceGB": 269.53,
     "TotalSizeGB": 930.76
