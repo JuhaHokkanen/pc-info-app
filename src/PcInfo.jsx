@@ -66,8 +66,7 @@ function PcInfo() {
           <Row label="BIOS-valmistaja" value={info.BIOS.Manufacturer} />
           <Row label="Käyttäjä" value={info.User.Username} />
           <Row label="Käyttäjän kotikansion koko" value={`${info.User.FolderSizeGB} GB`} />
-          <Row label="C-aseman käyttö" value={`${info.Disk.UsedSpaceGB} / ${info.Disk.TotalSizeGB} GB (${info.Disk.FreeSpaceGB} GB vapaana)`} />
-          <Row label="C-aseman tyyppi" value={info.Disk.Type} />
+          <Row label="C-asema: " value={`${info.Disk.UsedSpaceGB} / ${info.Disk.TotalSizeGB} GB (${info.Disk.FreeSpaceGB} GB vapaana) Tyyppi: ${info.Disk.Type}`} />
         </tbody>
       </table>
 
