@@ -1,37 +1,37 @@
 {
-  "Memory": {
-    "TotalMemoryGB": 31.93
-  },
   "Processor": {
+    "Cores": 12,
     "Name": "AMD Ryzen 9 3900X 12-Core Processor            ",
-    "Threads": 24,
-    "Cores": 12
-  },
-  "Disk": {
-    "Drive": "C:",
-    "FreeSpaceGB": 661.77,
-    "Type": "NVMe",
-    "TotalSizeGB": 930.76,
-    "UsedSpaceGB": 268.99
+    "Threads": 24
   },
   "Graphics": {
     "GPU": "NVIDIA GeForce GTX 1070 Ti"
   },
-  "System": {
-    "OSName": "Microsoft Windows 11 Pro",
-    "Timestamp": "2025-04-01 16.23.32",
-    "OSBuild": "26100",
-    "Uptime": "4d 4h 43min",
-    "LastBoot": "28.03.2025 11.39",
-    "OSVersion": "10.0.26100",
-    "ComputerName": "DESKTOP-IQ1GGQ8"
+  "User": {
+    "FolderSizeGB": 18.69,
+    "Username": "home"
+  },
+  "Memory": {
+    "TotalMemoryGB": 31.93
   },
   "BIOS": {
-    "BIOSVersion": "ALASKA - 1072009 / FGg / American Megatrends - 50011",
-    "Manufacturer": "American Megatrends International, LLC."
+    "Manufacturer": "American Megatrends International, LLC.",
+    "BIOSVersion": "ALASKA - 1072009 / FGg / American Megatrends - 50011"
   },
-  "User": {
-    "Username": "home",
-    "FolderSizeGB": 18.69
+  "Disk": {
+    "Drive": "C:",
+    "FreeSpaceGB": 661.22,
+    "Type": "NVMe",
+    "UsedSpaceGB": 269.54,
+    "TotalSizeGB": 930.76
+  },
+  "System": {
+    "OSName": "Microsoft Windows 11 Pro",
+    "LastBoot": "28.03.2025 11.39",
+    "OSVersion": "10.0.26100",
+    "OSBuild": "26100",
+    "Timestamp": "2025-04-01 20.11.51",
+    "ComputerName": "DESKTOP-IQ1GGQ8",
+    "Uptime": "4d 8h 31min"
   }
 }
