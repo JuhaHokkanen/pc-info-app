@@ -15,7 +15,7 @@ function PcInfo() {
   // useEffect ajetaan kerran, kun komponentti ladataan
   useEffect(() => {
     // Haetaan tiedot tiedostosta public/pcinfo.json
-    fetch('/pcinfo.json')
+    fetch(`${import.meta.env.BASE_URL}pcinfo.json`)
       .then((res) => {
         // Jos vastaus ei ole ok, heitetään virhe
         if (!res.ok) throw new Error("Virhe ladattaessa pcinfo.json");
