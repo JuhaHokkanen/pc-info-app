@@ -17,7 +17,7 @@ function PcInfo() {
     // Haetaan tiedot tiedostosta public/pcinfo.json
     fetch(`${import.meta.env.BASE_URL}pcinfo.json`)
       .then((res) => {
-        // Jos vastaus ei ole ok, heitetään virhe
+        // Jos vastaus ei ole ok, annetaan virhe
         if (!res.ok) throw new Error("Virhe ladattaessa pcinfo.json");
         // Muutetaan vastaus JSON:iksi
         return res.json();
