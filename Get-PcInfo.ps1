@@ -42,6 +42,11 @@ $pcInfo = @{
         Cores   = $cpuInfo.NumberOfCores
         Threads = $cpuInfo.ThreadCount
     }
+    MotherBoard =@{
+       Manufacturer = $sysInfo.Manufacturer
+       Model = $sysInfo.Model
+    }
+
     Memory = @{
         TotalMemoryGB = [math]::Round($sysInfo.TotalPhysicalMemory / 1GB, 2)
     }

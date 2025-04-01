@@ -60,6 +60,9 @@ function PcInfo() {
 
           <Row label="Prosessori" value={info.Processor.Name} />
           <Row label="Prosessorin tiedot: " value={`Ytimiä: ${info.Processor.Cores} Säikeitä: ${info.Processor.Threads}`} />
+          <Row label="Emolevyn valmistaja:" value={info.Motherboard.Manufacturer} />
+          <Row label="Emolevyn malli:" value={info.Motherboard.Model} />
+          <Row label="Prosessori" value={info.Processor.Name} />
 
           <Row label="Muisti" value={`${info.Memory.TotalMemoryGB} GB`} />
           <Row label="Näytönohjain" value={info.Graphics.GPU} />
