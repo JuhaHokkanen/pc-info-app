@@ -1,0 +1,35 @@
+{
+  "BIOS": {
+    "Manufacturer": "American Megatrends International, LLC."
+  },
+  "Processor": {
+    "Cores": 12,
+    "Threads": 24,
+    "Name": "AMD Ryzen 9 3900X 12-Core Processor            "
+  },
+  "User": {
+    "FolderSizeGB": 18.69,
+    "Username": "home"
+  },
+  "Disk": {
+    "TotalSizeGB": 930.76,
+    "UsedSpaceGB": 268.33,
+    "FreeSpaceGB": 662.43,
+    "Drive": "C:"
+  },
+  "Graphics": {
+    "GPU": "NVIDIA GeForce GTX 1070 Ti"
+  },
+  "Memory": {
+    "TotalMemoryGB": 31.93
+  },
+  "System": {
+    "OSName": "Microsoft Windows 11 Pro",
+    "OSVersion": "10.0.26100",
+    "Timestamp": "2025-04-01 10.41.06",
+    "Uptime": "3d 23h 1min",
+    "LastBoot": "28.03.2025 11.39",
+    "ComputerName": "DESKTOP-IQ1GGQ8",
+    "OSBuild": "26100"
+  }
+}
