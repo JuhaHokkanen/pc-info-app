@@ -1,37 +1,37 @@
 {
-  "BIOS": {
-    "BIOSVersion": "ALASKA - 1072009 / FGg / American Megatrends - 50011",
-    "Manufacturer": "American Megatrends International, LLC."
+  "Processor": {
+    "Cores": 12,
+    "Name": "AMD Ryzen 9 3900X 12-Core Processor            ",
+    "Threads": 24
   },
   "Graphics": {
     "GPU": "NVIDIA GeForce GTX 1070 Ti"
-  },
-  "Memory": {
-    "TotalMemoryGB": 31.93
   },
   "User": {
     "FolderSizeGB": 18.69,
     "Username": "home"
   },
+  "Memory": {
+    "TotalMemoryGB": 31.93
+  },
+  "BIOS": {
+    "Manufacturer": "American Megatrends International, LLC.",
+    "BIOSVersion": "ALASKA - 1072009 / FGg / American Megatrends - 50011"
+  },
   "Disk": {
-    "TotalSizeGB": 930.76,
     "Drive": "C:",
-    "UsedSpaceGB": 268.66,
+    "FreeSpaceGB": 661.22,
     "Type": "NVMe",
-    "FreeSpaceGB": 662.1
+    "UsedSpaceGB": 269.54,
+    "TotalSizeGB": 930.76
   },
   "System": {
-    "Uptime": "4d 2h 41min",
     "OSName": "Microsoft Windows 11 Pro",
     "LastBoot": "28.03.2025 11.39",
-    "OSBuild": "26100",
     "OSVersion": "10.0.26100",
+    "OSBuild": "26100",
+    "Timestamp": "2025-04-01 20.13.40",
     "ComputerName": "DESKTOP-IQ1GGQ8",
-    "Timestamp": "2025-04-01 14.21.29"
-  },
-  "Processor": {
-    "Name": "AMD Ryzen 9 3900X 12-Core Processor            ",
-    "Threads": 24,
-    "Cores": 12
+    "Uptime": "4d 8h 33min"
   }
 }

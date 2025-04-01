@@ -81,7 +81,7 @@ catch {
 
 
 # Tallennetaan JSON-muotoisena tiedostoon (huom! -Depth 5)
-$pcInfo | ConvertTo-Json -Depth 5 | Set-Content -Encoding UTF8 -Path "./public/data.json"
+$pcInfo | ConvertTo-Json -Depth 5 | Set-Content -Encoding UTF8 -Path "./public/pcinfo.json"
 
 Write-Host "pcinfo.json tallennettu: $jsonPath" -ForegroundColor Green
 
