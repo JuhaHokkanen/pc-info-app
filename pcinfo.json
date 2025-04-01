@@ -1,4 +1,20 @@
 {
+  "Memory": {
+    "TotalMemoryGB": 31.93
+  },
+  "User": {
+    "FolderSizeGB": 18.69,
+    "Username": "home"
+  },
+  "System": {
+    "OSName": "Microsoft Windows 11 Pro",
+    "LastBoot": "28.03.2025 11.39",
+    "OSVersion": "10.0.26100",
+    "OSBuild": "26100",
+    "Timestamp": "2025-04-01 20.22.53",
+    "ComputerName": "DESKTOP-IQ1GGQ8",
+    "Uptime": "4d 8h 43min"
+  },
   "Processor": {
     "Cores": 12,
     "Name": "AMD Ryzen 9 3900X 12-Core Processor            ",
@@ -7,16 +23,13 @@
   "Graphics": {
     "GPU": "NVIDIA GeForce GTX 1070 Ti"
   },
-  "User": {
-    "FolderSizeGB": 18.69,
-    "Username": "home"
-  },
-  "Memory": {
-    "TotalMemoryGB": 31.93
-  },
   "BIOS": {
     "Manufacturer": "American Megatrends International, LLC.",
     "BIOSVersion": "ALASKA - 1072009 / FGg / American Megatrends - 50011"
+  },
+  "MotherBoard": {
+    "Manufacturer": "Gigabyte Technology Co., Ltd.",
+    "Model": "B550 AORUS ELITE V2"
   },
   "Disk": {
     "Drive": "C:",
@@ -24,14 +37,5 @@
     "Type": "NVMe",
     "UsedSpaceGB": 269.54,
     "TotalSizeGB": 930.76
-  },
-  "System": {
-    "OSName": "Microsoft Windows 11 Pro",
-    "LastBoot": "28.03.2025 11.39",
-    "OSVersion": "10.0.26100",
-    "OSBuild": "26100",
-    "Timestamp": "2025-04-01 20.14.27",
-    "ComputerName": "DESKTOP-IQ1GGQ8",
-    "Uptime": "4d 8h 34min"
   }
 }
