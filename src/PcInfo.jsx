@@ -59,22 +59,23 @@ function PcInfo() {
           <Row label="Päivämäärä" value={formatTimestamp(info.System.Timestamp)} />
 
           <Row label="Prosessori" value={info.Processor.Name} />
-          <Row label="Ytimiä" value={info.Processor.Cores} />
-          <Row label="Säikeitä" value={info.Processor.Threads} />
+          <Row label="Prosessorin tiedot: " value={`Ytimiä: ${info.Processor.Cores} Säikeitä: ${info.Processor.Threads}`} />
+
           <Row label="Muisti" value={`${info.Memory.TotalMemoryGB} GB`} />
           <Row label="Näytönohjain" value={info.Graphics.GPU} />
           <Row label="BIOS-valmistaja" value={info.BIOS.Manufacturer} />
           <Row label="Käyttäjä" value={info.User.Username} />
-          <Row label="Käyttäjän kansion koko" value={`${info.User.FolderSizeGB} GB`} />
+          <Row label="Käyttäjän kotikansion koko" value={`${info.User.FolderSizeGB} GB`} />
           <Row label="C-aseman käyttö" value={`${info.Disk.UsedSpaceGB} / ${info.Disk.TotalSizeGB} GB (${info.Disk.FreeSpaceGB} GB vapaana)`} />
+          <Row label="C-aseman tyyppi" value={info.Disk.Type} />
         </tbody>
       </table>
 
       {/* Näytetään keruun aikaleima suoraan (ISO-tyyli) */}
       <h2>Data Retrieved At</h2>
-      <p>{info.System.Timestamp}</p>
+      <p>{formatTimestamp(info.System.Timestamp)}</p>
 
-      {/* Alatunniste eli footer */}
+      {/* footer */}
       <footer>
         <p>&copy; 2025 Juha Hokkanen. All rights reserved.</p>
       </footer>

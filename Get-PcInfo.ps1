@@ -8,7 +8,9 @@ $biosInfo   = Get-CimInstance Win32_BIOS
 $sysInfo    = Get-CimInstance Win32_ComputerSystem
 $diskC      = Get-CimInstance Win32_LogicalDisk -Filter "DeviceID='C:'"
 $bootTime   = $osInfo.LastBootUpTime
+$diskInfo = Get-PhysicalDisk | Select-Object -First 1 -ExpandProperty BusType
 $currentTime = Get-Date
+
 
 # Laske käyttöaika
 $uptime = New-TimeSpan -Start $bootTime -End $currentTime
@@ -48,13 +50,14 @@ $pcInfo = @{
     }
     BIOS = @{
         Manufacturer = $biosInfo.Manufacturer
-
+        BIOSVersion = $biosVersion
     }
     Disk = @{
         Drive        = "C:"
         UsedSpaceGB  = [math]::Round(($diskC.Size - $diskC.FreeSpace) / 1GB, 2)
         FreeSpaceGB  = [math]::Round($diskC.FreeSpace / 1GB, 2)
         TotalSizeGB  = [math]::Round($diskC.Size / 1GB, 2)
+        Type = $diskInfo
     }
     User = @{
         Username       = $env:USERNAME
